@@ -1,0 +1,25 @@
+一.数据接口：
+  1.易源：https://www.showapi.com/
+  2.聚合：https://www.juhe.cn/
+  3.API市  http://apistore.baidu.com/astore/classificationservicelist/
+二．推送平台：
+  1.百度推送：http://push.baidu.com/
+  2.极光推送：https://www.jiguang.cn/push
+  3.友盟推送：http://mobile.umeng.com/push
+三．分享平台：
+1.ShareSDK：http://www.mob.com/#/
+2.友盟：http://mobile.umeng.com/social
+四．三方登入平台
+  1.友盟：http://dev.umeng.com/social/ios/operation
+  2.ShareSDK：http://sharesdk.mob.com/#/sharesdk
+五．即使通讯平台：
+1.环信：http://www.easemob.com/
+2.友盟：http://im.umeng.com/
+六．安卓知识点总结：
+http://www.jianshu.com/p/8286c0c13ba8?utm_campaign=haruki&utm_content=note&utm_medium=reader_share&utm_source=qq
+七．安卓屏幕适配详解：
+
+1.http://www.jianshu.com/p/f46f2874f52e?utm_campaign=haruki&utm_content=note&utm_medium=reader_share&utm_source=qq
+2.http://www.jianshu.com/p/ec5a1a30694b?utm_campaign=haruki&utm_content=note&utm_medium=reader_share&utm_source=qq
+八．安卓项目架构解析
+http://www.jianshu.com/p/1912473dff9a?utm_campaign=haruki&utm_content=note&utm_medium=reader_share&utm_source=qq

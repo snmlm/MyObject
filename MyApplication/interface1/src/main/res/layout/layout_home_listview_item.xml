@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="10dp"
+    android:minHeight="100dp">
+    <ImageView
+        android:id="@+id/img_item_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/dicar_forum_car_c5"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:id="@+id/tv_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图说|中国电动大巴在美国市场占优势"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/img_item_left_bottom"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:background="#ff0000"/>
+        <TextView
+            android:id="@+id/tv_item_comment_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/img_item_left_bottom"
+            android:text="0"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/colorGray66"
+            android:textSize="13sp"/>
+        <TextView
+            android:id="@+id/tv_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="5小时前"
+            android:textColor="@color/colorGray66"
+            android:textSize="13sp"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/StyleMainTopLinearLayout">
+
+        <TextView style="@style/StyleMainTopLinearLayoutLeftTextView" />
+
+        <EditText
+            android:id="@+id/et_main_input"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:hint="星座名称"
+            android:maxLines="1"
+            android:textAppearance="?android:attr/textAppearanceLargeInverse"
+            android:textColor="#ffff00"
+            android:textColorHint="#88ff00"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/btn_main_query"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="查询"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llayout_main_show_parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llayout_main_show"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="#ffff00"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/img_main_show"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@mipmap/sheshou" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_main_fortune"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="射手座今日运势"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/StyleMainItemLinearLayout">
+
+                    <LinearLayout style="@style/StyleMainItemLinearLayoutLinearLayout">
+
+                        <TextView
+                            style="@style/StyleMainItemLinearLayoutTextView"
+                            android:text="综合指数：" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/StyleMainItemLinearLayoutLinearLayout">
+
+                        <TextView
+                            android:id="@+id/tv_main_synthesize"
+                            style="@style/StyleMainItemLinearLayoutTextView"
+                            android:text="5星" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout style="@style/StyleMainItemLinearLayout">
+
+                    <LinearLayout style="@style/StyleMainItemLinearLayoutLinearLayout">
+
+                        <TextView
+                            style="@style/StyleMainItemLinearLayoutTextView"
+                            android:text="爱情指数：" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/StyleMainItemLinearLayoutLinearLayout">
+
+                        <TextView
+                            android:id="@+id/tv_main_love"
+                            style="@style/StyleMainItemLinearLayoutTextView"
+                            android:text="5星" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout style="@style/StyleMainItemLinearLayout">
+
+                    <LinearLayout style="@style/StyleMainItemLinearLayoutLinearLayout">
+
+                        <TextView
+                            style="@style/StyleMainItemLinearLayoutTextView"
+                            android:text="财富指数：" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/StyleMainItemLinearLayoutLinearLayout">
+
+                        <TextView
+                            android:id="@+id/tv_main_treasure"
+                            style="@style/StyleMainItemLinearLayoutTextView"
+                            android:text="5星" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout style="@style/StyleMainItemLinearLayout">
+
+                    <LinearLayout style="@style/StyleMainItemLinearLayoutLinearLayout">
+
+                        <TextView
+                            style="@style/StyleMainItemLinearLayoutTextView"
+                            android:text="工作指数：" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/StyleMainItemLinearLayoutLinearLayout">
+
+                        <TextView
+                            android:id="@+id/tv_main_work"
+                            style="@style/StyleMainItemLinearLayoutTextView"
+                            android:text="5星" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="运势简评："
+                    android:textColor="@color/colorYellow"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv_main_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        打发打发撒地方阿斯顿发生发大水发撒地方暗室逢灯撒旦发送地方撒旦发送地方"
+                    android:textColor="@color/colorRed"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

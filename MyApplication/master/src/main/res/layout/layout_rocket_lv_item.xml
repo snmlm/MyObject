@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@color/colorYellow">
+    <CheckBox
+        android:id="@+id/cb_rocket_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"/>
+    <ImageView
+        android:id="@+id/img_rocket_item"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/cb_rocket_item"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:id="@+id/tv_rocket_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="应用名称"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/img_rocket_item"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@id/img_rocket_item"/>
+
+    <TextView
+        android:id="@+id/tv_rocket_item_ram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="应用运行内存"
+        android:textSize="15sp"
+        android:layout_toRightOf="@id/img_rocket_item"
+        android:layout_marginLeft="5dp"
+        android:layout_alignBottom="@id/img_rocket_item"/>
+    <TextView
+        android:id="@+id/tv_rocket_item_system"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="系统应用"
+        android:textSize="15sp"
+        android:layout_alignBottom="@id/img_rocket_item"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/colorRad"/>
+
+</RelativeLayout>

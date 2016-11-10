@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\android-studio-workspace\\MyApplication\\roboguiceTest\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "D:\\android-studio-workspace\\MyApplication\\roboguiceTest\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\android-studio-workspace\\MyApplication\\roboguiceTest\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_search.png",
+        "source": "D:\\android-studio-workspace\\MyApplication\\roboguiceTest\\src\\main\\res\\drawable-hdpi\\ic_action_search.png"
+    }
+]

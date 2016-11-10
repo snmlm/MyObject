@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/img_tel_item"
+        android:layout_width="1dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/tv_tel_item_namec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="通讯类别"
+        android:textSize="20sp"
+        android:layout_alignTop="@id/img_tel_item"/>
+    <TextView
+        android:id="@+id/tv_tel_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="电话名"
+        android:textSize="18sp"
+        android:layout_alignBottom="@id/img_tel_item"
+        android:textColor="#000000"/>
+
+    <ImageView
+        android:id="@+id/img_img_tel_item_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@mipmap/ic_arrows_right" />
+    <TextView
+        android:id="@+id/tv_tel_item_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12345678901"
+        android:textSize="20sp"
+        android:layout_toLeftOf="@id/img_img_tel_item_right"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"/>
+
+</RelativeLayout>

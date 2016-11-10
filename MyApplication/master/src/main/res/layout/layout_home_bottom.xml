@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:showDividers="beginning|middle"
+        android:divider="@drawable/shape_home_cut_off">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:showDividers="middle"
+        android:divider="@drawable/shape_home_cut_off">
+
+            <TextView
+                android:id="@+id/tv_home_bottom_rocket"
+                style="@style/style_home_bottom_item"
+                android:drawableTop="@mipmap/icon_rocket"
+                android:text="@string/home_bottom_text_rockmgr" />
+
+
+            <TextView
+                android:id="@+id/tv_home_bottom_softmgr"
+                style="@style/style_home_bottom_item"
+                android:drawableTop="@mipmap/icon_softmgr"
+                android:text="@string/home_bottom_text_softmgr" />
+
+            <TextView
+            android:id="@+id/tv_home_bottom_phonemgr"
+            style="@style/style_home_bottom_item"
+            android:drawableTop="@mipmap/icon_phonemgr"
+            android:text="@string/home_bottom_text_phonemgr" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:showDividers="middle"
+        android:divider="@drawable/shape_home_cut_off">
+        <TextView
+            android:id="@+id/tv_home_bottom_telmgr"
+            style="@style/style_home_bottom_item"
+            android:drawableTop="@mipmap/icon_telmgr"
+            android:text="@string/home_bottom_text_telmgr" />
+        <TextView
+            android:id="@+id/tv_home_bottom_filemgr"
+            style="@style/style_home_bottom_item"
+            android:drawableTop="@mipmap/icon_filemgr"
+            android:text="@string/home_bottom_text_filemgr" />
+        <TextView
+            android:id="@+id/tv_home_bottom_sdclean"
+            style="@style/style_home_bottom_item"
+            android:drawableTop="@mipmap/icon_sdclean"
+            android:text="@string/home_bottom_text_sdclean" />
+    </LinearLayout>
+    </LinearLayout>
+
+</merge>

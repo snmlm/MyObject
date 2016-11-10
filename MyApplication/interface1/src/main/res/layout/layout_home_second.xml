@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:showDividers="beginning|middle|end"
+    android:divider="@drawable/home_cut_off_rule">
+    <LinearLayout
+        style="@style/styleHomeSecondTabLinearLayout">
+        <com.ds.interface1.view.TabHomeView
+            style="@style/styleHomeSecondTabView"
+            app:topTextView_text="汽车知识"
+            app:bottomTextView_text="大讲堂"
+            app:rightImageView_background="@mipmap/tab_home_activity1"/>
+        <com.ds.interface1.view.TabHomeView
+            style="@style/styleHomeSecondTabView"
+            app:topTextView_text="优惠处销"
+            app:bottomTextView_text="厚惠无期"
+            app:rightImageView_background="@mipmap/tab_home_activity2"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/styleHomeSecondTabLinearLayout">
+        <com.ds.interface1.view.TabHomeView
+            style="@style/styleHomeSecondTabView"
+            app:topTextView_text="活动中心"
+            app:bottomTextView_text="精彩呈现"
+            app:rightImageView_background="@mipmap/tab_home_activity3"/>
+        <com.ds.interface1.view.TabHomeView
+            style="@style/styleHomeSecondTabView"
+            app:topTextView_text="汽车精品"
+            app:bottomTextView_text="等你来选购"
+            app:rightImageView_background="@mipmap/tab_home_activity4"/>
+    </LinearLayout>
+
+</LinearLayout>

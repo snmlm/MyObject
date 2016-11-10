@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activityStack/activityStack.iml" filepath="$PROJECT_DIR$/activityStack/activityStack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app1/app1.iml" filepath="$PROJECT_DIR$/app1/app1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoviewpager/autoviewpager.iml" filepath="$PROJECT_DIR$/autoviewpager/autoviewpager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/brokenview/brokenview.iml" filepath="$PROJECT_DIR$/brokenview/brokenview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/catransition/catransition.iml" filepath="$PROJECT_DIR$/catransition/catransition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customadapter/customadapter.iml" filepath="$PROJECT_DIR$/customadapter/customadapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialog/dialog.iml" filepath="$PROJECT_DIR$/dialog/dialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragment/fragment.iml" filepath="$PROJECT_DIR$/fragment/fragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frameanimation/frameanimation.iml" filepath="$PROJECT_DIR$/frameanimation/frameanimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home/home.iml" filepath="$PROJECT_DIR$/home/home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/huichuan/huichuan.iml" filepath="$PROJECT_DIR$/huichuan/huichuan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imagedownload/imagedownload.iml" filepath="$PROJECT_DIR$/imagedownload/imagedownload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imitatetheheadlinestoday/imitatetheheadlinestoday.iml" filepath="$PROJECT_DIR$/imitatetheheadlinestoday/imitatetheheadlinestoday.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interface1/interface1.iml" filepath="$PROJECT_DIR$/interface1/interface1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listview/listview.iml" filepath="$PROJECT_DIR$/listview/listview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listviewfastslidingoptimization/listviewfastslidingoptimization.iml" filepath="$PROJECT_DIR$/listviewfastslidingoptimization/listviewfastslidingoptimization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/master/master.iml" filepath="$PROJECT_DIR$/master/master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybreak/mybreak.iml" filepath="$PROJECT_DIR$/mybreak/mybreak.iml" />
+      <module fileurl="file://$PROJECT_DIR$/popupwindowdemo/popupwindowdemo.iml" filepath="$PROJECT_DIR$/popupwindowdemo/popupwindowdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/propertyanimation/propertyanimation.iml" filepath="$PROJECT_DIR$/propertyanimation/propertyanimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/radiobutton/radiobutton.iml" filepath="$PROJECT_DIR$/radiobutton/radiobutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerview/recyclerview.iml" filepath="$PROJECT_DIR$/recyclerview/recyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rev/rev.iml" filepath="$PROJECT_DIR$/rev/rev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/roboguiceTest/roboguiceTest.iml" filepath="$PROJECT_DIR$/roboguiceTest/roboguiceTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screenSelectorDemo/screenSelectorDemo.iml" filepath="$PROJECT_DIR$/screenSelectorDemo/screenSelectorDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidelayout/slidelayout.iml" filepath="$PROJECT_DIR$/slidelayout/slidelayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/togglebutton/togglebutton.iml" filepath="$PROJECT_DIR$/togglebutton/togglebutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/undergraduateapp/undergraduateapp.iml" filepath="$PROJECT_DIR$/undergraduateapp/undergraduateapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagerfragment/viewpagerfragment.iml" filepath="$PROJECT_DIR$/viewpagerfragment/viewpagerfragment.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorYellow">
+        <com.ds.master.view.CreateView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv_home_center_speed"
+            android:layout_width="@dimen/home_center_CreateView_layout_width"
+            android:layout_height="@dimen/home_center_CreateView_layout_width"
+            android:layout_centerInParent="true"
+            app:arcSweepAngle="90"
+            />
+        <ImageView
+            android:id="@+id/iv_home_center_speed"
+            android:layout_width="@dimen/home_center_ImageView_layout_height"
+            android:layout_height="@dimen/home_center_ImageView_layout_height"
+            android:layout_centerInParent="true"
+            android:background="@drawable/select_home_center"
+            android:clickable="true"/>
+        <TextView
+            android:id="@+id/tv_home_center_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_center_text_number"
+            android:textSize="@dimen/home_center_textSize_number"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/home_center_text_marginTop_number"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_center_text_percent"
+            android:textSize="@dimen/home_center_textSize_percent"
+            android:layout_alignBaseline="@id/tv_home_center_number"
+            android:layout_toRightOf="@id/tv_home_center_number"
+           />
+
+        <TextView
+            android:id="@+id/tv_home_center_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_home_center_number"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/home_center_TextView_layout_marginTop"
+            android:background="@drawable/select_home_center_tv_bg"
+            android:text="@string/home_bottom_text_rockmgr"
+            android:textSize="@dimen/home_center_TextView_textSize"
+            android:padding="@dimen/home_center_TextView_padding"
+            android:clickable="true"
+            android:textColor="@color/colorWhite"/>
+
+    </RelativeLayout>
+
+</merge>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Master</string>
+    <string name="gudie_skip">跳过</string>
+    <string name="gudie_start_manger">开始管理</string>
+    <string name="splash_skip">%1$d</string>
+
+    <!-- homeActivity top -->
+    <string name="home_top_text">Master</string>
+
+    <!-- homeActivity center -->
+    <string name="home_center_text_number">%1$d</string>
+    <string name="home_center_text_percent">%</string>
+    <string name="home_center_text_speedup">手机加速</string>
+
+    <!-- homeActivity bottom -->
+    <string name="home_bottom_text_rockmgr">手机加速</string>
+    <string name="home_bottom_text_softmgr">软件管理</string>
+    <string name="home_bottom_text_phonemgr">手机检测</string>
+    <string name="home_bottom_text_telmgr">通讯大全</string>
+    <string name="home_bottom_text_filemgr">文件管理</string>
+    <string name="home_bottom_text_sdclean">垃圾清理</string>
+
+
+    <!-- top title -->
+    <string name="top_title">%1$s</string>
+
+    <!-- setting name -->
+    <string name="setting_text_name">%1$s</string>
+
+</resources>

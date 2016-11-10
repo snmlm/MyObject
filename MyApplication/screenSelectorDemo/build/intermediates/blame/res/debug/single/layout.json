@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\android-studio-workspace\\MyApplication\\screenSelectorDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\android-studio-workspace\\MyApplication\\screenSelectorDemo\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\android-studio-workspace\\MyApplication\\screenSelectorDemo\\build\\intermediates\\res\\merged\\debug\\layout\\screen_select_item.xml",
+        "source": "D:\\android-studio-workspace\\MyApplication\\screenSelectorDemo\\src\\main\\res\\layout\\screen_select_item.xml"
+    },
+    {
+        "merged": "D:\\android-studio-workspace\\MyApplication\\screenSelectorDemo\\build\\intermediates\\res\\merged\\debug\\layout\\screen_select_activity.xml",
+        "source": "D:\\android-studio-workspace\\MyApplication\\screenSelectorDemo\\src\\main\\res\\layout\\screen_select_activity.xml"
+    }
+]

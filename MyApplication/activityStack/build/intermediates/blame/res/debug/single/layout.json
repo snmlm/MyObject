@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\android-studio-workspace\\MyApplication\\activityStack\\build\\intermediates\\res\\merged\\debug\\layout\\otherview.xml",
+        "source": "D:\\android-studio-workspace\\MyApplication\\activityStack\\src\\main\\res\\layout\\otherview.xml"
+    },
+    {
+        "merged": "D:\\android-studio-workspace\\MyApplication\\activityStack\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\android-studio-workspace\\MyApplication\\activityStack\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\android-studio-workspace\\MyApplication\\activityStack\\build\\intermediates\\res\\merged\\debug\\layout\\anotherview.xml",
+        "source": "D:\\android-studio-workspace\\MyApplication\\activityStack\\src\\main\\res\\layout\\anotherview.xml"
+    },
+    {
+        "merged": "D:\\android-studio-workspace\\MyApplication\\activityStack\\build\\intermediates\\res\\merged\\debug\\layout\\testview.xml",
+        "source": "D:\\android-studio-workspace\\MyApplication\\activityStack\\src\\main\\res\\layout\\testview.xml"
+    }
+]

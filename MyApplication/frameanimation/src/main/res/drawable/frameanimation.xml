@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_1" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_2" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_3" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_4" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_5" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_6" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_7" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_8" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_9" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_10" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_11" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_12" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_13" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_14" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_15" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_16" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_17" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_18" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_19" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_20" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_21" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_22" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_23" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_24" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_25" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_26" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_27" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_28" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_29" android:duration="100"/>
+    <item android:drawable="@mipmap/bd34efaf0bda42c6aaaf950106062990_30" android:duration="100"/>
+
+
+
+
+</animation-list>

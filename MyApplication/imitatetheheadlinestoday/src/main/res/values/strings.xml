@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ImitateTheHeadlinesToday</string>
+    <string name="home">首页</string>
+    <string name="discover">视频</string>
+    <string name="care">关注</string>
+    <string name="mine">个人</string>
+
+</resources>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.ds.master.view.TitleBarView
+        android:id="@+id/tbn_file_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_file_show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="已发现" />
+
+                <TextView
+                    android:id="@+id/tv_file_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/tv_file_show"
+                    android:layout_toRightOf="@id/tv_file_show"
+                    android:text="0B"
+                    android:textSize="50sp"
+                    android:textStyle="bold|italic" />
+            </RelativeLayout>
+            <View style="@style/style_file_view"></View>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/rlayout_file_all"
+                        style="@style/style_file_item_layout">
+
+                        <TextView
+                            android:id="@+id/tv_file_all_name"
+                            style="@style/style_file_item_name"
+                            android:text="全部" />
+
+                        <TextView
+                            android:id="@+id/tv_file_all"
+                            style="@style/style_file_item"
+                            android:layout_toRightOf="@id/tv_file_all_name"
+                            android:text="0B" />
+
+                        <ImageView
+                            android:id="@+id/img_file_all"
+                            style="@style/style_file_item_image" />
+                    </RelativeLayout>
+
+                    <View style="@style/style_file_view" />
+
+                    <RelativeLayout
+                        android:id="@+id/rlayout_file_document"
+                        style="@style/style_file_item_layout">
+
+                        <TextView
+                            android:id="@+id/tv_file_document_name"
+                            style="@style/style_file_item_name"
+                            android:text="文档" />
+
+                        <TextView
+                            android:id="@+id/tv_file_document"
+                            style="@style/style_file_item"
+                            android:layout_toRightOf="@id/tv_file_document_name"
+                            android:text="0B" />
+
+                        <ImageView
+                            android:id="@+id/img_file_document"
+                            style="@style/style_file_item_image" />
+                    </RelativeLayout>
+
+                    <View style="@style/style_file_view" />
+
+                    <RelativeLayout
+                        android:id="@+id/rlayout_file_video"
+                        style="@style/style_file_item_layout">
+
+                        <TextView
+                            android:id="@+id/tv_file_video_name"
+                            style="@style/style_file_item_name"
+                            android:text="视频" />
+
+                        <TextView
+                            android:id="@+id/tv_file_video"
+                            style="@style/style_file_item"
+                            android:layout_toRightOf="@id/tv_file_video_name"
+                            android:text="0B" />
+
+                        <ImageView
+                            android:id="@+id/img_file_video"
+                            style="@style/style_file_item_image" />
+                    </RelativeLayout>
+
+                    <View style="@style/style_file_view" />
+
+                    <RelativeLayout
+                        android:id="@+id/rlayout_file_voice"
+                        style="@style/style_file_item_layout">
+
+                        <TextView
+                            android:id="@+id/tv_file_voice_name"
+                            style="@style/style_file_item_name"
+                            android:text="音频" />
+
+                        <TextView
+                            android:id="@+id/tv_file_voice"
+                            style="@style/style_file_item"
+                            android:layout_toRightOf="@id/tv_file_voice_name"
+                            android:text="0B" />
+
+                        <ImageView
+                            android:id="@+id/img_file_voice"
+                            style="@style/style_file_item_image" />
+                    </RelativeLayout>
+
+                    <View style="@style/style_file_view" />
+
+                    <RelativeLayout
+                        android:id="@+id/rlayout_file_image"
+                        style="@style/style_file_item_layout">
+
+                        <TextView
+                            android:id="@+id/tv_file_image_name"
+                            style="@style/style_file_item_name"
+                            android:text="图像" />
+
+                        <TextView
+                            android:id="@+id/tv_file_image"
+                            style="@style/style_file_item"
+                            android:layout_toRightOf="@id/tv_file_image_name"
+                            android:text="0B" />
+
+                        <ImageView
+                            android:id="@+id/img_file_image"
+                            style="@style/style_file_item_image" />
+                    </RelativeLayout>
+
+                    <View style="@style/style_file_view" />
+
+                    <RelativeLayout
+                        android:id="@+id/rlayout_file_package"
+                        style="@style/style_file_item_layout">
+
+                        <TextView
+                            android:id="@+id/tv_file_package_name"
+                            style="@style/style_file_item_name"
+                            android:text="压缩包" />
+
+                        <TextView
+                            android:id="@+id/tv_file_package"
+                            style="@style/style_file_item"
+                            android:layout_toRightOf="@id/tv_file_package_name"
+                            android:text="0B" />
+
+                        <ImageView
+                            android:id="@+id/img_file_package"
+                            style="@style/style_file_item_image" />
+                    </RelativeLayout>
+
+                    <View style="@style/style_file_view" />
+
+                    <RelativeLayout
+                        android:id="@+id/rlayout_file_software"
+                        style="@style/style_file_item_layout">
+
+                        <TextView
+                            android:id="@+id/tv_file_software_name"
+                            style="@style/style_file_item_name"
+                            android:text="程序包" />
+
+                        <TextView
+                            android:id="@+id/tv_file_software"
+                            style="@style/style_file_item"
+                            android:layout_toRightOf="@id/tv_file_software_name"
+                            android:text="0B" />
+
+                        <ImageView
+                            android:id="@+id/img_file_software"
+                            style="@style/style_file_item_image" />
+                    </RelativeLayout>
+
+                    <View style="@style/style_file_view" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlayout_file_progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#66666666"
+            android:clickable="true">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

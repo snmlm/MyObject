@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/setting_RelativeLayout_layout_margin">
+
+        <TextView
+            android:id="@+id/tv_setting_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="开机启动"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/setting_text_textSize"
+            android:textStyle="bold"/>
+
+        <ToggleButton
+            android:id="@+id/tb_setting_set"
+            android:layout_width="@dimen/setting_ToggleButton_layout_width"
+            android:layout_height="@dimen/setting_ToggleButton_layout_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/select_setting_item"
+            android:textOff=""
+            android:textOn="" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="10dp">
+<ImageView
+    android:id="@+id/img_news_item"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:layout_centerVertical="true" />
+    <TextView
+        android:id="@+id/tv_news_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="南非沙滩上出现大片“美味”，当地人垂涎三尺却无人拾捡"
+        android:textSize="18sp"
+        android:textColor="#FF4081"
+        android:textStyle="bold|italic"
+        android:layout_toRightOf="@id/img_news_item"
+        android:layout_alignTop="@id/img_news_item"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_news_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2016-01-01"
+        android:layout_toRightOf="@id/img_news_item"
+        android:layout_alignBottom="@id/img_news_item"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_news_item_browser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1000"
+        android:layout_alignParentRight="true"
+        android:textColor="#0000ff"
+        android:layout_alignBottom="@id/img_news_item"
+        android:layout_marginLeft="10dp"/>
+</RelativeLayout>

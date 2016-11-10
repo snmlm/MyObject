@@ -1,0 +1,4 @@
+include ':app', ':slidelayout', ':togglebutton', ':customadapter', ':listview', ':recyclerview', ':undergraduateapp', ':huichuan', ':fragment', ':radiobutton', ':viewpagerfragment', ':imitatetheheadlinestoday', ':frameanimation', ':propertyanimation', ':catransition', ':master', ':interface1', ':rev', ':dialog', ':popupwindowdemo', ':autoviewpager', ':listviewfastslidingoptimization', ':home', ':brokenview', ':app1', ':mybreak', ':imagedownload'
+include ':activityStack'
+include ':roboguiceTest'
+include ':screenSelectorDemo'

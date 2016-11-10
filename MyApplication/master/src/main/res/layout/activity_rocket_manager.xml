@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.ds.master.view.TitleBarView
+        android:id="@+id/tbn_rocketmnager_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_rocket_phone_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="手机名"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_rocket_system_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="手机名"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+
+        <ProgressBar
+            android:id="@+id/pb_rocket_RAM"
+            style="?android:progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/layer_list_rocket_pb_ram"
+            android:max="100"
+            android:layout_marginTop="3dp" />
+
+
+        <TextView
+            android:id="@+id/tv_rocket_RAM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="已用内存：1024M/1024M"
+            android:textColor="@color/colorBlack"
+            android:textSize="13sp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="4dp"/>
+
+        <Button
+            android:id="@+id/btn_rocket_clean"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="一键清理"
+            android:background="@drawable/select_rocket_btn_clean_bg"
+            android:layout_marginTop="3dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+            <ListView
+                android:id="@+id/lv_rocket_lv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ListView>
+            <ProgressBar
+                android:id="@+id/pb_rocket_flush"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:indeterminateDrawable="@drawable/rotate_rocket_load"
+                android:indeterminateDuration="600"
+                android:indeterminateOnly="true"
+                android:indeterminateBehavior="repeat"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <CheckBox
+                android:id="@+id/cb_rocket_allselect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <Button
+                android:id="@+id/btn_rocket_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="显示"
+                android:background="@drawable/select_rocket_btn_show_bg"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

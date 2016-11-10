@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_guide_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:id="@+id/llayout_guide_point_parent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/vp_guide_main"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#66666666"/>
+
+    <TextView
+        android:id="@+id/tv_guide_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gudie_skip"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:clickable="true"/>
+    <Button
+        android:id="@+id/btn_guide_start_splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gudie_start_manger"
+        android:visibility="gone"
+        android:layout_above="@id/llayout_guide_point_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

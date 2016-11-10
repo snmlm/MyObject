@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\android-studio-workspace\\MyApplication\\screenSelectorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p0.jpg",
+        "source": "D:\\android-studio-workspace\\MyApplication\\screenSelectorDemo\\src\\main\\res\\drawable-hdpi\\p0.jpg"
+    },
+    {
+        "merged": "D:\\android-studio-workspace\\MyApplication\\screenSelectorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p3.jpg",
+        "source": "D:\\android-studio-workspace\\MyApplication\\screenSelectorDemo\\src\\main\\res\\drawable-hdpi\\p3.jpg"
+    },
+    {
+        "merged": "D:\\android-studio-workspace\\MyApplication\\screenSelectorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p5.jpg",
+        "source": "D:\\android-studio-workspace\\MyApplication\\screenSelectorDemo\\src\\main\\res\\drawable-hdpi\\p5.jpg"
+    },
+    {
+        "merged": "D:\\android-studio-workspace\\MyApplication\\screenSelectorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p1.jpg",
+        "source": "D:\\android-studio-workspace\\MyApplication\\screenSelectorDemo\\src\\main\\res\\drawable-hdpi\\p1.jpg"
+    },
+    {
+        "merged": "D:\\android-studio-workspace\\MyApplication\\screenSelectorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p4.jpg",
+        "source": "D:\\android-studio-workspace\\MyApplication\\screenSelectorDemo\\src\\main\\res\\drawable-hdpi\\p4.jpg"
+    },
+    {
+        "merged": "D:\\android-studio-workspace\\MyApplication\\screenSelectorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p2.jpg",
+        "source": "D:\\android-studio-workspace\\MyApplication\\screenSelectorDemo\\src\\main\\res\\drawable-hdpi\\p2.jpg"
+    },
+    {
+        "merged": "D:\\android-studio-workspace\\MyApplication\\screenSelectorDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bt_close.jpg",
+        "source": "D:\\android-studio-workspace\\MyApplication\\screenSelectorDemo\\src\\main\\res\\drawable-hdpi\\bt_close.jpg"
+    }
+]

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="CreateView">
+      <attr name="arcColor" format="color" />
+      <attr name="arcStartAngle" format="integer" />
+      <attr name="arcSweepAngle" format="integer" />
+  </declare-styleable>
+    <declare-styleable name="CircleView">
+        <attr name="Color" format="color" />
+        <attr name="StartAngle" format="integer" />
+        <attr name="SweepAngle" format="integer" />
+    </declare-styleable>
+</resources>

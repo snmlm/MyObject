@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:\android-studio\ide\gradle\gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/activityStack" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app1" />
+            <option value="$PROJECT_DIR$/autoviewpager" />
+            <option value="$PROJECT_DIR$/brokenview" />
+            <option value="$PROJECT_DIR$/catransition" />
+            <option value="$PROJECT_DIR$/customadapter" />
+            <option value="$PROJECT_DIR$/dialog" />
+            <option value="$PROJECT_DIR$/fragment" />
+            <option value="$PROJECT_DIR$/frameanimation" />
+            <option value="$PROJECT_DIR$/home" />
+            <option value="$PROJECT_DIR$/huichuan" />
+            <option value="$PROJECT_DIR$/imagedownload" />
+            <option value="$PROJECT_DIR$/imitatetheheadlinestoday" />
+            <option value="$PROJECT_DIR$/interface1" />
+            <option value="$PROJECT_DIR$/listview" />
+            <option value="$PROJECT_DIR$/listviewfastslidingoptimization" />
+            <option value="$PROJECT_DIR$/master" />
+            <option value="$PROJECT_DIR$/mybreak" />
+            <option value="$PROJECT_DIR$/popupwindowdemo" />
+            <option value="$PROJECT_DIR$/propertyanimation" />
+            <option value="$PROJECT_DIR$/radiobutton" />
+            <option value="$PROJECT_DIR$/recyclerview" />
+            <option value="$PROJECT_DIR$/rev" />
+            <option value="$PROJECT_DIR$/roboguiceTest" />
+            <option value="$PROJECT_DIR$/screenSelectorDemo" />
+            <option value="$PROJECT_DIR$/slidelayout" />
+            <option value="$PROJECT_DIR$/togglebutton" />
+            <option value="$PROJECT_DIR$/undergraduateapp" />
+            <option value="$PROJECT_DIR$/viewpagerfragment" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

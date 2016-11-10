@@ -1,0 +1,40 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- homeActivity top -->
+    <dimen name="home_top_textSize">20sp</dimen>
+
+    <!-- homeActivity center -->
+    <!-- number -->
+    <dimen name="home_center_textSize_number">50sp</dimen>
+    <dimen name="home_center_text_marginTop_number">50dp</dimen>
+    <!-- percent -->
+    <dimen name="home_center_textSize_percent">20sp</dimen>
+    <!-- CreateView -->
+    <dimen name="home_center_CreateView_layout_width">200dp</dimen>
+    <dimen name="home_center_CreateView_layout_height">200dp</dimen>
+    <!-- ImageView -->
+    <dimen name="home_center_ImageView_layout_width">200dp</dimen>
+    <dimen name="home_center_ImageView_layout_height">200dp</dimen>
+    <!-- TextView_Bottom -->
+    <dimen name="home_center_TextView_layout_marginTop">15dp</dimen>
+    <dimen name="home_center_TextView_textSize">15sp</dimen>
+    <dimen name="home_center_TextView_padding">3dp</dimen>
+
+    <!-- homeActivity bottom -->
+    <dimen name="home_bottom_item_textSize">15sp</dimen>
+    <dimen name="home_bottom_item_padding">20dp</dimen>
+    <dimen name="home_bottom_item_drawablePadding">10dp</dimen>
+
+    <!-- top title-->
+    <dimen name="top_title_textSize">20sp</dimen>
+
+    <!-- setting -->
+    <dimen name="setting_RelativeLayout_layout_margin">15dp</dimen>
+    <dimen name="setting_text_textSize">15sp</dimen>
+    <dimen name="setting_ToggleButton_layout_width">50dp</dimen>
+    <dimen name="setting_ToggleButton_layout_height">25dp</dimen>
+
+</resources>

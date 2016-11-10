@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_margin="5dp">
+
+
+    <TextView
+        android:id="@+id/tv_tab_home_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="汽车知识"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_tab_home_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="大讲堂"
+        android:textColor="@color/colorGray"
+        android:textSize="10sp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"/>
+
+    <ImageView
+        android:id="@+id/img_tab_home_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/tab_home_activity1" />
+</RelativeLayout>

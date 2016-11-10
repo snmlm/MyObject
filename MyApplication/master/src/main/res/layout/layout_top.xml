@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/tv_top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/top_title"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/top_title_textSize"/>
+        <ImageButton
+            android:id="@+id/ib_top_title_left"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/btn_homeasup_default"
+            android:background="@drawable/select_home_item"
+            android:clickable="true"/>
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorGray66"
+            android:layout_alignRight="@id/ib_top_title_left"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGray66"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+</merge>

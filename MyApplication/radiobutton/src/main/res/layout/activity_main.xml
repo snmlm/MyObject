@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_main_vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></android.support.v4.view.ViewPager>
+    <RadioGroup
+        android:id="@+id/rg_bottom_rg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_botom_home"
+            android:text="首页"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_b_newhome_tabbar"
+            style="@style/new_bottom_style"
+            />
+        <RadioButton
+            android:id="@+id/rb_botom_discover"
+            android:drawableTop="@drawable/selector_b_newdiscover_tabbar"
+            android:text="视频"
+            style="@style/new_bottom_style"
+            />
+        <RadioButton
+            android:id="@+id/rb_botom_care"
+
+            android:drawableTop="@drawable/selector_b_newcare_tabbar"
+            android:text="关注"
+            style="@style/new_bottom_style"
+            />
+        <RadioButton
+            android:id="@+id/rb_botom_mine"
+            android:drawableTop="@drawable/selector_b_newmine_tabbar"
+            android:text="个人"
+            style="@style/new_bottom_style"
+            />
+    </RadioGroup>
+</LinearLayout>

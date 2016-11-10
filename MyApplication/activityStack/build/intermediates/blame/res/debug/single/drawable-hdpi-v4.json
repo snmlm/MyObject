@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\android-studio-workspace\\MyApplication\\activityStack\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\drawable1.jpg",
+        "source": "D:\\android-studio-workspace\\MyApplication\\activityStack\\src\\main\\res\\drawable-hdpi\\drawable1.jpg"
+    },
+    {
+        "merged": "D:\\android-studio-workspace\\MyApplication\\activityStack\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\drawable3.jpg",
+        "source": "D:\\android-studio-workspace\\MyApplication\\activityStack\\src\\main\\res\\drawable-hdpi\\drawable3.jpg"
+    },
+    {
+        "merged": "D:\\android-studio-workspace\\MyApplication\\activityStack\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\drawable2.jpg",
+        "source": "D:\\android-studio-workspace\\MyApplication\\activityStack\\src\\main\\res\\drawable-hdpi\\drawable2.jpg"
+    },
+    {
+        "merged": "D:\\android-studio-workspace\\MyApplication\\activityStack\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\drawable4.jpg",
+        "source": "D:\\android-studio-workspace\\MyApplication\\activityStack\\src\\main\\res\\drawable-hdpi\\drawable4.jpg"
+    }
+]

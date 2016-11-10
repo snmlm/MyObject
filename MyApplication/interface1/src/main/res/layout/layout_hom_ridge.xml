@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <TextView
+        android:id="@+id/tv_top_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="迪粉汇"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"/>
+    <ImageButton
+        android:id="@+id/ib_top_title_left"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:src="@mipmap/function_textdriver_phone"
+        android:background="@color/colorWhite"
+        android:clickable="true"/>
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#66666666"
+        android:layout_alignRight="@id/ib_top_title_left"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#66666666"
+        android:layout_alignParentBottom="true"></TextView>
+</RelativeLayout>
+    <include layout="@layout/layout_home_one"></include>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/colorBlack"></View>
+    <include layout="@layout/layout_home_second"></include>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/colorBlack"></View>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="最新"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看全部"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:textSize="13dp"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colorGray"/>
+    </RelativeLayout>
+
+</LinearLayout>

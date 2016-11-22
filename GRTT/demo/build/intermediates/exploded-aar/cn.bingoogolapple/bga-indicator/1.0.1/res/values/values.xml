@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BGAIndicator"><attr format="color|reference" name="indicator_textColor"/><attr format="dimension|reference" name="indicator_textSizeNormal"/><attr format="dimension|reference" name="indicator_textSizeSelected"/><attr format="dimension|reference" name="indicator_triangleHorizontalMargin"/><attr format="color|reference" name="indicator_triangleColor"/><attr format="dimension|reference" name="indicator_triangleHeight"/><attr format="boolean" name="indicator_hasDivider"/><attr format="color|reference" name="indicator_dividerColor"/><attr format="dimension|reference" name="indicator_dividerWidth"/><attr format="dimension|reference" name="indicator_dividerVerticalMargin"/></declare-styleable>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:minHeight="200dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_news_item_a_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="标题"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <com.ds.myapp.view.SetSizeImageView
+                android:id="@+id/img_news_item_a_a"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="#ff00ff" />
+
+            <com.ds.myapp.view.SetSizeImageView
+                android:id="@+id/img_news_item_a_b"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="#ff00ff" />
+
+            <com.ds.myapp.view.SetSizeImageView
+                android:id="@+id/img_news_item_a_c"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="#ff00ff" />
+        </LinearLayout>
+</LinearLayout>
